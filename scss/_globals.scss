@@ -1,6 +1,7 @@
 html {
   font-size: 100%;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 *, *::before, *::after {
@@ -12,11 +13,8 @@ body {
   padding: 0;
   font-family: $rubik;
   font-weight: 400;
-}
-
-.overflow__wrapper {
+  overflow: hidden;
   position: relative;
-  overflow-x: hidden;
 }
 
 a, a:visited, a:hover {
