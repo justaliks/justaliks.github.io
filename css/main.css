@@ -11,10 +11,11 @@ html {
 body {
   margin: 0;
   padding: 0;
+  max-height: 100vh;
   font-family: "Rubik", sans-serif;
   font-weight: 400;
-  overflow: hidden;
-  position: relative;
+  position: fixed;
+  overflow-x: hidden;
 }
 
 a, a:visited, a:hover {
@@ -148,8 +149,8 @@ ul {
 .header .overlay {
   position: absolute;
   top: 0;
-  right: 0;
   bottom: 0;
+  right: 0;
   left: 100%;
   padding-top: 6rem;
   background: rgba(47, 53, 79, 0.9);

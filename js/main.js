@@ -7,8 +7,8 @@ hamburger.addEventListener("click", () => {
     header.classList.remove("open")
     body.classList.remove("noscroll")
   } else {
+    body.scrollTo(0,0)
     header.classList.add("open")
     body.classList.add("noscroll")
-    window.scrollTo(0,0)
   }
 })
